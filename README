@@ -29,7 +29,7 @@ defined in feeds.conf / feeds.conf.default
 2. Run "./scripts/feeds install -a" to install symlinks for all obtained
 packages into package/feeds/
 
-3. Clone the BrokenWrt-Environment git into the 'env' folder and create symlinks
+3. Clone the BrokenWrt-Environment repo[1] into the 'env' folder and create symlinks
 from 'files' to 'env/files' and from '.config' to 'env/.config'
 
 4. Use "./scripts/env switch f4040_bwrt001" to change to the appropriate environment config.
@@ -57,4 +57,4 @@ Sunshine!
 	Your OpenWrt Community
 	http://www.openwrt.org
 
-
+[1] https://github.com/james-knippes/brokenwrt-env-archive
